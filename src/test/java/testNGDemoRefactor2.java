@@ -19,7 +19,7 @@ public class testNGDemoRefactor2 {
         automationExerciseHomePage.assertOnUrl();
         elementAction.click(driver,automationExerciseHomePage.sigupLoginMenu_button());
         automationExerciseSignupLoginPage.assertOnSignupPage(testData.getTestData("test1.excpeted"));
-        automationExerciseSignupLoginPage.userSignUp("ahmed","uaus@gmail.com");
+        automationExerciseSignupLoginPage.userSignUp("ahmed","ubigos@gmail.com");
         automationExerciseAccountInformationPage.assertOnAccountInformation("ENTER ACCOUNT INFORMATION");
         automationExerciseAccountInformationPage.userAccountInformation("2","2","2001");
         automationExerciseAccountInformationPage.userAddressInformation();
